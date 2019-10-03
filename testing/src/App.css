@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.displayContainer {
+  display: flex;
+}
+
+.display {
+  border: 1px black solid;
+  margin: 10px;
+  width: 50%;
+  background-color: lightgray;
+}
+
+.display p,
+span {
+  font-size: 30px;
+}
+
+.display span {
+  color: red;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  width: 20%;
+  background-color: lightblue;
+  height: 50px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: white;
+}
